@@ -5,7 +5,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-DATA_FILE = "expenses.json"
+DATA_FILE = "/tmp/expenses.json"
 
 
 def load_expenses():
